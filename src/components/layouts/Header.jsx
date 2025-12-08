@@ -6,17 +6,16 @@ import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="py-8 bg-white shadow-sm">
+    <div className="py-8">
       <Container>
-        <Flex>
-          {/* <h1>header</h1> */}
-          <div className="w-[40%]">
+                <Flex className="items-center justify-between">
+          <div className="w-[40%] pl-[132px]">
             <Link to="/">
               <Image src={logo} />
             </Link>
           </div>
           <div className="w-[60%]">
-            <ul className="flex gap-5">
+            <ul className="flex gap-10">
               <li>
                 <Link to="/">Home</Link>
               </li>
@@ -28,8 +27,8 @@ const Header = () => {
               </li>
             </ul>
           </div>
-      
         </Flex>
+        
       </Container>
     </div>
   );
