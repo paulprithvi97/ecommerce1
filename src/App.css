@@ -3,6 +3,6 @@
 @theme {
   --color-primaryColor: #262626;
   --coor-headerBg: #979797;
-  /* --font-dmFont: 'DM Sans', sans-serif; */
-  --spacing-mContainer: 1320px;
+  --font-dmFont: 'DM Sans', sans-serif;
+  --spacing-mContainer: 1920px;
 }
