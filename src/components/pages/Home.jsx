@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../layouts/Banner";
 import { Info } from "lucide";
 import Information from "../layouts/Information";
+import Ads from "../layouts/Ads";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
     <>
       <Banner />
       <Information />
+      <Ads />
     </>
   );
 };
